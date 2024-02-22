@@ -10,7 +10,7 @@ npm create astro@latest -- --template portfolio
 
 >
 
-![portfolio](https://drive.google.com/file/d/12n1IK136XLMulYHIwwYCBWKYXWz55KpZ/view?usp=sharing)
+![portfolio](https://i.ibb.co/6NChmz8/CRESPO-WEB.png)
 
 ## 🧞 Commands
 
