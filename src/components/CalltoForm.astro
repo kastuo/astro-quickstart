@@ -1,0 +1,78 @@
+---
+import Icon from './Icon.astro';
+import Skills from './Skills.astro';
+---
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		
+		<h2>Desarrollo Web Innovador</h2>
+		<p>Transformamos ideas en sitios web dinámicos y funcionales 
+		que cautivan a tu audiencia.</p><p> Desde plataformas de comercio electrónico hasta sitios corporativos,
+		 creamos soluciones adaptadas a tus necesidades.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		
+		<h2>Marketing Digital Estratégico</h2>
+		<p>Maximizamos tu visibilidad en línea mediante estrategias de marketing digital inteligentes. </p>
+		<p>Desde SEO y SEM hasta redes sociales, trabajamos para posicionar tu marca y atraer a tu público objetivo.</p>
+	</div>
+</section>
+
+
+
+<style>
+		
+	ul{
+		list-style-type: none;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	}
+	svg{
+		vertical-align: middle;
+		width: 50px;
+		height:50px;
+		color: #ff0072;
+	}
+	.box {
+		border: 5px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 2.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+		align-items: center;
+		
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+		
+</style>
