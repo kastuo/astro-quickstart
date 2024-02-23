@@ -10,6 +10,8 @@
 
 ![portfolio](https://i.ibb.co/6NChmz8/CRESPO-WEB.png)
 
+![live View] (https://crespo.netlify.app/) (https://crespo-web.vercel.app/)
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
