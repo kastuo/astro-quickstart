@@ -131,11 +131,12 @@ const projects = (await getCollection('work'))
 	}
 
 	.hero img {
-		aspect-ratio: 5 / 4;
+		aspect-ratio: 3 / 4;
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+		
 	}
 
 	@media (min-width: 50em) {
@@ -144,6 +145,7 @@ const projects = (await getCollection('work'))
 			grid-template-columns: 6fr 4fr;
 			padding-inline: 2.5rem;
 			gap: 3.75rem;
+			padding: 10px,10px;
 		}
 
 		.roles {

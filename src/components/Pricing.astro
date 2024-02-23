@@ -6,8 +6,10 @@ import Icon from './Icon.astro';
 
     <div class="price">
         <h3>Te ofrecemos soluciones web a medida para todo tipo de negocios</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, odio adipisci cum quidem qui, suscipit vero </p>
-            <p>blanditiis eveniet in laudantium vitae tenetur dolore. Obcaecati repudiandae qui unde corrupti corporis officiis.</p>
+        
+            <p>Implemento tecnologías avanzadas para potenciar la presencia online y el rendimiento de los negocios, 
+                adaptándome a las necesidades específicas de cada cliente. </p>
+        
         
 
         <div class="wrapper">
@@ -150,11 +152,16 @@ import Icon from './Icon.astro';
 		align-items: center;
 		gap: 4rem;
         padding: 10px 10px 10px 10px;
-        
-	}
+    }
+	.price p{
+        display: flex;
+		flex-direction: row;
+		padding: 30px 120px; 
+        font-size: calc(1em + 1vw)
+    } 
+	
     *{
-    margin: 0;
-    padding: 10px;
+    
     box-sizing: border-box;
 }
 
@@ -301,6 +308,12 @@ import Icon from './Icon.astro';
 @media screen and (max-width:600px){
    .wrapper{
         grid-template-columns: 1fr;
+    } 
+
+	.price p{
+        display: flex;
+		flex-direction: row;
+		padding: 30px 30px; 
     } 
 }
 
